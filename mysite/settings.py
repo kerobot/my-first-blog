@@ -25,7 +25,7 @@ SECRET_KEY = 'pgk$@9ou*^%b_)%ivd4n30&4xo%0^!4b&(^d--dg#3s#r3aym-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kerobot.pythonanywhere.com']
 
 
 # Application definition
@@ -119,3 +119,7 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
