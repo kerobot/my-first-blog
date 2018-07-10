@@ -25,7 +25,7 @@ SECRET_KEY = 'pgk$@9ou*^%b_)%ivd4n30&4xo%0^!4b&(^d--dg#3s#r3aym-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['kerobot.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -125,4 +125,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
