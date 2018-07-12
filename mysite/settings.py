@@ -25,7 +25,7 @@ SECRET_KEY = 'pgk$@9ou*^%b_)%ivd4n30&4xo%0^!4b&(^d--dg#3s#r3aym-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['kerobot.pythonanywhere.com','127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
